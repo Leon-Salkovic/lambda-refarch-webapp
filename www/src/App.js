@@ -126,6 +126,7 @@ function App() {
   }
 
   const completeToDo = async (itemId) => {
+    itemId.preventDefault();
     if (itemId === null) return;
 
     const result = await axios({
