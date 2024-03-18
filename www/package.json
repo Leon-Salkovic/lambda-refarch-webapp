@@ -14,8 +14,8 @@
   },
   "scripts": {
     "start": "SET NODE_OPTIONS=--openssl-legacy-provider && SET PORT=8080 && react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "build": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts build",
+    "test": "SET NODE_OPTIONS=--openssl-legacy-provider && react-scripts test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
