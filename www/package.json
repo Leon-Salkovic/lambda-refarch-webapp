@@ -13,7 +13,7 @@
     "reactstrap": "^8.8.1"
   },
   "scripts": {
-    "start": "SET PORT=8080 react-scripts start",
+    "start": "SET NODE_OPTIONS=--openssl-legacy-provider && SET PORT=8080 && react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
